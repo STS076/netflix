@@ -1,0 +1,97 @@
+
+.background{
+    background: rgba(0, 0, 0, 0.6) url("assets/img/background_netflix.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/*  */
+/* accueil */
+/*  */
+
+.background .accueil{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: space-between;
+}
+
+.background .accueil .logo img{
+    width: 15%;
+}
+
+.background .accueil .logo{
+    margin-left: 3rem;
+}
+
+.background .accueil .boutons{
+    display: flex;
+    color: white;
+    font-size: 1.2rem;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.background .accueil .boutons .fr {
+    background-color: black;
+    border: 1px solid white;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    justify-content: space-between;
+}
+
+.background .accueil .boutons .id{
+    background-color: red;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/*  */
+/* commencer */
+/*  */
+
+.commencer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.commencer .text1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+.commencer .text2{
+    font-size: 1.5rem;
+    margin:0 auto; 
+}
+
+.commencer .register{
+    display: flex;
+    justify-content: center;
+}
+
+.commencer .register .mail{
+    background-color: white;
+    color: grey;
+    width: 20%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-style: italic;
+    text-align: left;
+}
+
+.commencer .register .begin{
+    background-color: rgb(211, 2, 2);
+    width: 10%;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    font-size: 1.2rem;
+}
